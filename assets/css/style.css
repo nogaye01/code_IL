@@ -1,0 +1,51 @@
+#entete {
+	font-size: 2em;
+	text-align: center;
+	font-family: "AGENCY FB";
+	text-transform: uppercase;
+	/* border: 3px ridge black; */
+	margin-bottom: 10px;
+	/* Remove the 'float' property */
+	/* float: left; */
+	/* Set 'display' property to 'flex' to create a horizontal layout */
+	display: flex;
+	/* Center the items horizontally */
+	justify-content: center;
+	/* Align the items vertically at the center */
+	align-items: center;
+  }
+  
+  #contenu {
+	/* Modify the width to make room for the menu */
+	width: 70%;
+	text-align: justify;
+  }
+  
+  #menu {
+	/* Adjust the margin and width to fit the menu */
+	margin-left: 10px;
+	/* Modify the width to make room for the menu */
+	width: 20%;
+	text-align: center;
+	/* Remove the 'float' property */
+	/* float: left; */
+  }
+  
+  #menu li {
+	list-style-type: none;
+  }
+  
+  #menu h1 {
+	margin-top: 0px;
+	padding-top: 0px;
+	font-family: "AGENCY FB";
+	text-transform: uppercase;
+  }
+  
+  .article {
+	margin: 10px;
+	padding: 10px;
+	border: 3px double black;
+	background-color: rgba(0, 255, 0, 0.1);
+  }
+  
